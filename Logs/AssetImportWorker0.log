@@ -1,0 +1,298 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 5845 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documents/Projek Unity/GolfGolf/GolfGolf
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49361
+Successfully changed project path to: D:/Documents/Projek Unity/GolfGolf/GolfGolf
+D:/Documents/Projek Unity/GolfGolf/GolfGolf
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 489.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/Projek Unity/GolfGolf/GolfGolf/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     2922 MB
+    Driver:   27.20.11028.10001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034254 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 188.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.962 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1966ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1339ms)
+			LoadAssemblies (283ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (174ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (189ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024391 seconds.
+Android Extension - Scanning For ADB Devices 8334 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Documents\Projek Unity\GolfGolf\GolfGolf\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Documents\Projek Unity\GolfGolf\GolfGolf\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6152ms)
+		BeginReloadAssembly (802ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (4736ms)
+			LoadAssemblies (2502ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (845ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (1379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (838ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (58ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.20 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3762 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (149.8 KB). Loaded Objects now: 4222.
+Memory consumption went from 133.7 MB to 133.6 MB.
+Total: 12.907900 ms (FindLiveObjects: 0.996300 ms CreateObjectMapping: 1.003600 ms MarkObjects: 10.525100 ms  DeleteObjects: 0.378900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86862.363479 seconds.
+  path: Assets/Dreamworld Music/Ancestors.wav
+  artifactKey: Guid(e6184fc358e6f4142b9c9641167da765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Ancestors.wav using Guid(e6184fc358e6f4142b9c9641167da765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25edf2f9f5699544f996777330fadd9a') in 0.501119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Scenes/3DMaze.unity
+  artifactKey: Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze.unity using Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393afabfeee39f75ce8e4027a23bca98') in 0.033188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Dreamworld Music/Dreamworld.wav
+  artifactKey: Guid(2b71a194df12ead4da4aaa72509ab90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Dreamworld.wav using Guid(2b71a194df12ead4da4aaa72509ab90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c890a3e8c721284546efe71e1b8fad6') in 0.038565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Dreamworld Music/Trials and Tribulations.wav
+  artifactKey: Guid(77aae5ebc3d905a4c8075fbe28daf447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Trials and Tribulations.wav using Guid(77aae5ebc3d905a4c8075fbe28daf447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5a130e32a438145d3efffb31d9d086') in 0.058737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Dreamworld Music/Distant Land.wav
+  artifactKey: Guid(54d9f79d92db5c646a3dfb9bc35947aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Distant Land.wav using Guid(54d9f79d92db5c646a3dfb9bc35947aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eacd0dab539872ea3c2d148e0b1d9d') in 0.096071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Dreamworld Music/Loops
+  artifactKey: Guid(f72dbf05375e882469e34d460ff8a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Loops using Guid(f72dbf05375e882469e34d460ff8a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3cded6cff3e5668974cd793bf38297') in 0.021862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.004500 seconds.
+  path: Assets/Dreamworld Music/Zenith.wav
+  artifactKey: Guid(a0ee25e7c3c3cf34da0612caa78a889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dreamworld Music/Zenith.wav using Guid(a0ee25e7c3c3cf34da0612caa78a889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033a7966d225a7bcbce61449c15ec19d') in 0.061849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.850322 seconds.
+  path: Assets/Scripts/Ball.cs
+  artifactKey: Guid(8acea96b0307ea84aab3d087cb6ce45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.cs using Guid(8acea96b0307ea84aab3d087cb6ce45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e52acb70adeb31bcb4ccb2a2af99393') in 0.087028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.832268 seconds.
+  path: Assets/Scripts/FollowBall.cs
+  artifactKey: Guid(8d8edaf5ea836e344a9f84812c6e9e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FollowBall.cs using Guid(8d8edaf5ea836e344a9f84812c6e9e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff24b2cd078316543662205db22022df') in 0.037454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.272005 seconds.
+  path: Assets/Scenes/3DMaze 1.unity
+  artifactKey: Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze 1.unity using Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ed4a0ff44e18910b3b3786327ccb23') in 0.018709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.416309 seconds.
+  path: Assets/Scenes/3DMaze Lvl1.unity
+  artifactKey: Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl1.unity using Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6550e2223e68238ab724fa7e4fa851c9') in 0.017277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.211645 seconds.
+  path: Assets/Scenes/3DMaze.unity
+  artifactKey: Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze.unity using Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4383c3dea60560bdfaa42d4e6adee1a5') in 0.005720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.411594 seconds.
+  path: Assets/Scenes/3DMaze Lvl2.unity
+  artifactKey: Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl2.unity using Guid(79e439f75cfad7543a64d9aea5a6b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5789b5501a9061ba0d18eeb51ab07d90') in 0.283520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.955218 seconds.
+  path: Assets/Scenes/3DMaze Lvl2 1.unity
+  artifactKey: Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl2 1.unity using Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03167eda4050ba1f9ac4f4743aabeb20') in 0.018677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.247401 seconds.
+  path: Assets/Scenes/3DMaze Lvl3.unity
+  artifactKey: Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl3.unity using Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e13f0accc8464e07f87af15b4684fea') in 0.552017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.958256 seconds.
+  path: Assets/Scenes/3DMaze Lvl1.unity
+  artifactKey: Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl1.unity using Guid(45b06f4ec78bfdd41b7d5cd3edde2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7438fd76c4486610be457b9c0b1b3ca1') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.991344 seconds.
+  path: Assets/Scenes/3DMaze Lvl3.unity
+  artifactKey: Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl3.unity using Guid(144c6ec64e8804a40872420a24310e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa9f0397fbd6536be82f60470acf299') in 0.017646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.724619 seconds.
+  path: Assets/Scenes/3DMaze Lvl3 1.unity
+  artifactKey: Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl3 1.unity using Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6fdf31971d9418d5f0c49549a551c7') in 0.018410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.622375 seconds.
+  path: Assets/Scenes/3DMaze Lvl4.unity
+  artifactKey: Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl4.unity using Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0870fff560bdb6fb65f997c2eb8275') in 0.038946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.485767 seconds.
+  path: Assets/Scenes/3DMaze Lvl4.unity
+  artifactKey: Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl4.unity using Guid(e8c1fc7b24bd3a04c84d7908d8d4bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28305065f41b4f6f6a0cbeff1b5df8c') in 0.012202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.478701 seconds.
+  path: Assets/Scenes/3DMaze Lvl4 1.unity
+  artifactKey: Guid(e5093a31e3c5e364f929ad930f37c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl4 1.unity using Guid(e5093a31e3c5e364f929ad930f37c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5459d623e1f95fbf487d39ff0d24c188') in 0.027040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.458220 seconds.
+  path: Assets/Scenes/3DMaze Lvl5.unity
+  artifactKey: Guid(e5093a31e3c5e364f929ad930f37c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3DMaze Lvl5.unity using Guid(e5093a31e3c5e364f929ad930f37c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a4a49f726c71a0771c9bb3f951ea21') in 0.526119 seconds 
